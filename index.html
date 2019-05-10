@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>The Internet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body onkeypress="search_visibility(event)" >
+    <div id="search">
+        <input id="search-field" type="text" name="search-field" onkeypress="search(event)"/>
+    </div>
+    <div class="container">
+        <div id="clock"></div>
+        <div class="weather-container">
+            <div class="row">
+                <div id="weather-description" class="inline"></div>
+                <img src="" id="weather-icon" class="inline-icon"/>
+                <div id="temp" class="inline"></div>
+            </div>
+        </div>
+        <div id="bookmarkContainer" class="bookmark-container">
+
+        </div>
+        <div class="cat-container">
+            <div class="row">
+                <div id="cat-fact" class="inline"></div>
+            </div>
+        </div>
+    </div>
+<script src="scripts.js" type="text/javascript"></script>
+</body>
+</html>
