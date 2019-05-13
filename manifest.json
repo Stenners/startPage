@@ -2,7 +2,14 @@
   "name": "Start Page",
   "version": "1.0",
   "description": "Starting Page",
-  "permissions": ["storage", "bookmarks", "file:///*", "*://*/*", "tabs"],
+  "permissions": [
+    "chrome://favicon/",
+    "storage",
+    "bookmarks",
+    "file:///*",
+    "*://*/*",
+    "tabs"
+  ],
   "chrome_url_overrides": { "newtab": "redirect.html" },
   "content_scripts": [
     {
