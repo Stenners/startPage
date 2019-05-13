@@ -50,26 +50,6 @@ body {
   text-align: center;
 }
 
-.weather-container {
-  width: 30%;
-  background-color: #121112;
-  padding: 1em;
-  border-radius: 3px;
-  font-family: "Roboto Mono";
-  color: #fff;
-  text-align: center;
-}
-
-.cat-container {
-  width: 30%;
-  background-color: #121112;
-  padding: 1em;
-  border-radius: 3px;
-  font-family: "Roboto Mono";
-  color: #fff;
-  text-align: center;
-}
-
 .inline {
   display: inline-block;
 }
@@ -133,7 +113,8 @@ body {
 .bookmark-title {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #fff;
+  color: #B979E5;
+  /* color: #6F96FE; */
   margin: 0em 0em .35em 0em;
 }
 
@@ -153,5 +134,6 @@ body {
 }
 
 .bookmarkWrapper p {
-  color: #fff;
+  color: #6F96FE;
+  /* color: #B979E5; */
 }
