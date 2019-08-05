@@ -55,7 +55,11 @@ function getBookmarks() {
       let bookmarkObject = createBookmarkObject(bookmarkMainFolder.children[i]);
 
       if (bookmarkObject instanceof Folder) {
-        bookmarkFolder.push(bookmarkObject);
+        // Ignore dead/archive folder
+        if (bookmarkObject.title !== "💀") {
+          bookmarkFolder.push(bookmarkObject);
+        }
+        // bookmarkFolder.push(bookmarkObject);
       } else {
         defaultFolder.children.push(bookmarkObject);
       }
